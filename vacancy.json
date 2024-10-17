@@ -1,27 +1,62 @@
 [
     {
         "keywords": "CV-developer",
-        "count": 1,
+        "count": 3,
         "requirements": [
             {
                 "name": "C++",
+                "count": 2,
+                "persent": 66.7
+            },
+            {
+                "name": "Opencv",
                 "count": 1,
-                "persent": 100.0
+                "persent": 33.3
+            },
+            {
+                "name": "Docker",
+                "count": 1,
+                "persent": 33.3
+            },
+            {
+                "name": "Kafka",
+                "count": 1,
+                "persent": 33.3
+            },
+            {
+                "name": "Openvino",
+                "count": 1,
+                "persent": 33.3
+            },
+            {
+                "name": "Системное мышление",
+                "count": 1,
+                "persent": 33.3
+            },
+            {
+                "name": "Обработки изображений",
+                "count": 1,
+                "persent": 33.3
+            },
+            {
+                "name": "Анализа данных",
+                "count": 1,
+                "persent": 33.3
             },
             {
                 "name": "Linux",
                 "count": 1,
-                "persent": 100.0
+                "persent": 33.3
             },
             {
                 "name": "Cmake",
                 "count": 1,
-                "persent": 100.0
+                "persent": 33.3
             },
             {
                 "name": "Системы контроля",
                 "count": 1,
-                "persent": 100.0
+                "persent": 33.3
             }
         ]
     }
