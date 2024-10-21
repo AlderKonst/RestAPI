@@ -9,8 +9,13 @@
         <hr>
         <a href="index.html">На главную</a>
         <form>
-            <input type="text" value="" placeholder="Подсказка">
+            <input type="text" name="query_string" value="" placeholder="Подсказка">
             <br>
+            <select name="where">
+                <option value="all">Везде</option>
+                <option value="company">В названии компании</option>
+                <option selected value="name">В названии вакансии</option>
+            </select>
             <input type="submit" value="Искать вакасии">
         </form>
 </body>
