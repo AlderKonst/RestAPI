@@ -3,6 +3,10 @@ from pprint import pprint  # Импортируем функцию для кра
 import json  # Импортируем библиотеку для работы с JSON-файлами
 VACANCIES = 'https://api.hh.ru/vacancies'  # Базовый URL для поиска вакансий на HeadHunter
 KEYWORDS = 'CV-developer'  # Основное ключевое слово для поиска
+
+where = input('Где искать ваканцию?')
+query_string = input('Какая строка запроса?')
+
 #params = {
 #    'text': 'CV-разработчик',
 #    'page': 1
@@ -17,7 +21,7 @@ KEYWORDS = 'CV-developer'  # Основное ключевое слово для
 #pprint(result_item_1_url)
 params = { # Параметры для поиска вакансий
     # Через NAME совсем неадекватно ищет
-    'text': 'CV-разработчик OR CV-developer NOT Менеджер NOT Дизайнер NOT Инженер NOT Юрист NOT Агент NOT Специалист NOT Директор NOT Швея 1С NOT Архитектор NOT Оператор NOT Консультант NOT Геолог NOT FullStack NOT Мастер NOT Наладчик',
+    'text': 'CV-разработчик OR CV-developer NOT Менеджер NOT Дизайнер NOT Инженер NOT Юрист NOT Агент NOT Специалист NOT Директор NOT Швея 1С NOT Архитектор NOT Оператор NOT Консультант NOT Геолог NOT FullStack NOT Мастер NOT Наладчик NOT Администратор NOT HTML верстальщик',
     'only_with_salary': True,  # Показывать вакансии только с указанием зарплаты?
 #    'area': '1', # Москва
 #    'area': '2', # Санкт-Петербург
