@@ -1,4 +1,70 @@
-.maybe {
-    color: blue;
-    background-color: yellow;
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+menu {
+  background-color: silver;
+  padding: 10px;
+}
+
+menu a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+
+p a {
+  text-decoration: none;
+  line-height: 2;
+  max-width: 30%;
+  background-color: silver;
+  padding: 10px;
+}
+div{
+  background-color: silver;
+  border: 1px solid darkgrey;
+  padding: 10px;
+  margin: 10px;
+}
+input {
+  padding: 10px;
+  border: 1px solid darkgrey;
+  border-radius: 4px;
+}
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid darkgrey;
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: silver;
+}
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid darkgrey;
+  padding: 15px;
+  text-align: left;
+}
+
+th {
+  background-color: silver;
 }

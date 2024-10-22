@@ -1,20 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
-    <title>Поиск по сайту HH.ru через форму</title>
+    <title>Форма для ввода данных</title>
+    <link href="main.css" rel="stylesheet">
 </head>
 <body>
+    <menu>
+        <a href="index.html">Главная</a>
+        <a href="form.html">Форма для ввода данных</a>
+        <a href="contacts.html">Страница контактов</a>
+    </menu>
     <h1>Поиск по сайту HH.ru через форму</h1>
-        <hr>
-        <a href="index.html">На главную</a>
-        <form action="results.html">
-            <input type="text" name="query_string" value="" placeholder="Подсказка">
-            <br>
-            <select name="where">
-                <option value="all">Везде</option>
-                <option selected value="name">В названии вакансии</option>
-            </select>
+        <form action="contacts.html">
+            <div>
+                <label>Наберите желаемую вакансию для поиска:</label>
+                <input type="text" name="query_string" placeholder="Вакансия">
+            </div>
+            <div>
+                <label>Какие вакансии не должны быть включены:</label>
+                <input type="text" name="query_string" placeholder="Вакансия 1, вакансия 2">
+            </div>
+            <div>
+                <label>Выберите зону поиска желаемой вакансии:</label>
+                <select name="where">
+                    <option value="all">Везде</option>
+                    <option selected value="name">Вакансия</option>
+                </select>
+            </div>
             <input type="submit" value="Искать вакасии">
         </form>
 </body>
